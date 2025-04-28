@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "records",
+  "info": {
+    "singularName": "record",
+    "pluralName": "records",
+    "displayName": "Record"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "country": {
+      "type": "string"
+    },
+    "visited_date": {
+      "type": "date"
+    },
+    "note": {
+      "type": "text"
+    }
+  }
+}
